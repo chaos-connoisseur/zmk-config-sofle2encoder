@@ -75,7 +75,7 @@
                           &kp LGUI  &kp LALT  &kp LCTRL  &mo LOWER  &kp SPACE     &kp ENTER         &mo RAISE  &kp RCTRL  &kp LALT   &kp RGUI
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp KC_SCROLL_DOWN KC_SCROLL_UP &inc_dec_kp KC_SCROLL_RIGHT KC_SCROLL_LEFT>;
         };
 
         lower_layer {
@@ -120,7 +120,7 @@
                     &trans     &trans       &trans       &trans    &trans    &trans  &trans     &trans    &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp KC_SCROLL_DOWN KC_SCROLL_UP &inc_dec_kp KC_SCROLL_RIGHT KC_SCROLL_LEFT>;
         };
 
         adjust_layer {
@@ -140,7 +140,7 @@
                                  &none         &none         &none         &none         &none    &none  &none  &none  &none  &none
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp KC_SCROLL_DOWN KC_SCROLL_UP &inc_dec_kp KC_SCROLL_RIGHT KC_SCROLL_LEFT>;
         };
     };
 };
